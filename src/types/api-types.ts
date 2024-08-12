@@ -230,7 +230,7 @@ export type AllDiscountResponse = {
   coupons: CouponType[];
 };
 
-// export type SingleDiscountResponse = {
-//   success: boolean;
-//   coupon: CouponType;
-// };
+export type SingleDiscountResponse = {
+  success: boolean;
+  coupon: CouponType;
+};
