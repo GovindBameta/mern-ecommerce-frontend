@@ -190,8 +190,8 @@ export type Line = {
   revenue: number[];
 };
 
-// export type CouponType = {
-//   code: string;
-//   amount: number;
-//   _id: string;
-// };
+export type CouponType = {
+  code: string;
+  amount: number;
+  _id: string;
+};

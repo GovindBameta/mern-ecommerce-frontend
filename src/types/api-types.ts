@@ -1,6 +1,7 @@
 import {
   Bar,
   CartItem,
+  CouponType,
   Line,
   Order,
   Pie,
@@ -224,10 +225,10 @@ export type DeleteUserRequest = {
   adminUserId: string;
 };
 
-// export type AllDiscountResponse = {
-//   success: boolean;
-//   coupons: CouponType[];
-// };
+export type AllDiscountResponse = {
+  success: boolean;
+  coupons: CouponType[];
+};
 
 // export type SingleDiscountResponse = {
 //   success: boolean;
